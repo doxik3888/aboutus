@@ -14,9 +14,29 @@ a {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin-left: 8%;
-  margin-right: 8%;
+  margin-left: 10%;
+  margin-right: 10%;
   margin-top: 3%;
+}
+
+.bio-container_2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 3%;
+}
+
+.box_1{
+  position: absolute;
+  top: 300px;
+  width: 180px;
+  height: 40px;
+  border-radius: 13px;
+  background-color: olivedrab;
+  transform: rotate(-30deg);
 }
 
 .margin_all{
@@ -25,18 +45,6 @@ a {
 
 .margin_main{
   margin: 10px;
-}
-
-.block_1_background{
-  position: relative;
-  bottom: 20px;
-  left: 610px;
-  position: absolute;
-  width: 820px;
-  height: 450px;
-  background-color: darkgreen;
-  border-radius: 30px;
-  text-align: center;
 }
 
 .rev-container {
@@ -48,11 +56,45 @@ a {
 }
 
 .cascade {
+  margin-top: 70px;
+  margin-bottom: 70px;
   width: 820px;
   height: 420px;
   background-color: lightgreen;
   border-radius: 30px;
   text-align: center;
+  box-shadow: 9px -9px rgba(0, 100, 0, 0.719)
+}
+
+.cascade_sergoidanil {
+  margin-top: 15px;
+  margin-bottom: 70px;
+  width: 350px;
+  height: 600px;
+  background-color: lightgreen;
+  border-radius: 30px;
+  text-align: center;
+  box-shadow: 9px -9px rgba(0, 100, 0, 0.719)
+}
+
+.cascade_3 {
+  margin-top: 70px;
+  margin-bottom: 70px;
+  width: 820px;
+  height: 420px;
+  background-color: lightgreen;
+  border-radius: 30px;
+  text-align: center;
+  box-shadow: -9px 9px rgba(0, 100, 0, 0.719)
+}
+
+.boxShadow9 {
+  width: 80%;
+  max-width: 550px;
+  margin: 2em auto;
+  padding: 1em;
+  background: #d6d5d5;
+  box-shadow: 6px 6px #989898;
 }
 
 .cascade_2 {
@@ -72,7 +114,7 @@ a {
 .text_center{
   padding-top: 2.5%;
   text-align:center;
-  color: white;
+  color: rgba(145, 145, 145, 0.945);
 }
 
 .text_color{
@@ -96,7 +138,7 @@ a {
   justify-content: space-around;
   align-items: center;
   margin-bottom: 4px;
-  background-image: url("code.jpg");
+  background-image: url("sky.jpg");
   height: 250px;
 }
 
